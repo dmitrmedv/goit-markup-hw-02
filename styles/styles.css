@@ -1,0 +1,53 @@
+:root {
+  --header-background-color: #ececec;
+  --brand-background-color: #2f303a;
+  --section-background-color: #e5e5e5;
+  --section-background-color-comand: #f5f4fa;
+  --text-color-accent: #2196f3;
+  --text-color-primary: #212121;
+  --text-color-secondary: #757575;
+  --color-logo: #000000;
+
+}
+
+/* header styles */
+.header {
+  background-color: var(--header-background-color);
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--color-logo);
+}
+
+.logo-decoration {
+    color: var(--text-color-accent);
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--text-color-primary);   
+}
+
+
+.hero {
+  background-color: var(--brand-background-color);
+}
+
+.benefits {
+  background-color: var(--section-background-color);
+}
+
+.comand {
+  background-color: var(--section-background-color-comand);
+}
+
+.footer {
+  background-color: var(--brand-background-color);
+}
+
+
