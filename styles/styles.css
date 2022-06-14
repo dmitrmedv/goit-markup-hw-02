@@ -7,7 +7,6 @@
   --text-color-primary: #212121;
   --text-color-secondary: #757575;
   --color-logo: #000000;
-
 }
 
 /* header styles */
@@ -16,23 +15,27 @@
 }
 
 .logo {
-    text-decoration: none;
-    color: var(--color-logo);
+  text-decoration: none;
+  color: var(--color-logo);
 }
 
 .logo-decoration {
-    color: var(--text-color-accent);
+  color: var(--text-color-accent);
 }
 
-.nav-list {
-    list-style: none;
+.header ul {
+  list-style: none;
 }
+
+
 
 .nav-list a {
-    text-decoration: none;
-    color: var(--text-color-primary);   
+  color: var(--text-color-primary);
 }
 
+.header a {
+  text-decoration: none;
+}
 
 .hero {
   background-color: var(--brand-background-color);
@@ -49,5 +52,3 @@
 .footer {
   background-color: var(--brand-background-color);
 }
-
-
