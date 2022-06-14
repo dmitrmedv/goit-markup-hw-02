@@ -7,20 +7,15 @@
   --text-color-primary: #212121;
   --text-color-secondary: #757575;
   --color-logo: #000000;
-  --color-text-hero: #ffffff;
 }
 
-body ul {
-  list-style: none;
+/* header styles */
+.header {
+  background-color: var(--header-background-color);
 }
-
-body a {
-  text-decoration: none;
-}
-
-/* header */
 
 .logo {
+  text-decoration: none;
   color: var(--color-logo);
 }
 
@@ -28,124 +23,32 @@ body a {
   color: var(--text-color-accent);
 }
 
-.nav-link.active {
-border-bottom: var(--text-color-accent) 2px solid;
+.header ul {
+  list-style: none;
 }
 
-.nav-link {
-  color: var(---text-color-primary);
+
+
+.nav-list a {
+  color: var(--text-color-primary);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--text-color-accent);
+.header a {
+  text-decoration: none;
 }
 
-.adress-link {
-  color: var(--text-color-secondary);
-}
-
-.adress-link:hover,
-.adress-link:focus {
-  color: var(--text-color-accent);
-}
-
-.header {
-  background-color: var(--header-background-color);
-}
-
-/* hero */
 .hero {
   background-color: var(--brand-background-color);
 }
-.hero-title {
-  color: var(--color-text-hero);
-  text-transform: uppercase;
-}
-
-.hero-button {
-  color: var(--color-text-hero);
-  background: var(--text-color-accent);
-  border: none;
-  border-radius: 4px;
-}
-
-/* benefits */
 
 .benefits {
   background-color: var(--section-background-color);
 }
 
-.benefits-title {
-  visibility: hidden;
-}
-
-.benefits-list .title-list {
-  color: var(--text-color-primary);
-  text-transform: uppercase;
-}
-
-.benefits-list .text-list {
-  color: var(--text-color-secondary);
-}
-
-/* our-work */
-.our-work {
-  background-color: var(--section-background-color);
-}
-
-.our-work-titile {
-  color: var(--text-color-primary);
-}
-
-/* comand */
 .comand {
   background-color: var(--section-background-color-comand);
 }
 
-.worker-name {
-  color: var(--text-color-primary);
-}
-
-.job-title {
-  color: var(--text-color-secondary);
-}
-
-/* portfolio */
-
-.menu-list a {
-  color: var(--text-color-primary);
-  background-color: var(--section-background-color-comand);
-}
-
-.menu-list a:hover, .menu-list a:focus {
-  background-color: var(--text-color-accent);
-  color: var(--color-text-hero);
-}
-
-.project-type {
-  color: var(--text-color-secondary);
-}
-
-.project-name {
-  color: var(--text-color-primary);
-}
-
-/* footer */
 .footer {
   background-color: var(--brand-background-color);
 }
-
-.footer .logo {
-  color: var(--color-text-hero);
-}
-
-.address-list a {
-  font-style: normal;
-  color: var(--text-color-secondary);
-}
-
-.address-list .address {
-  color: var(--color-text-hero);
-}
-
