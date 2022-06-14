@@ -8,3 +8,13 @@
   --text-color-secondary: #757575;
   --color-logo: #000000;
 }
+
+body a,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.address-list {
+font-style: normal;
+}
