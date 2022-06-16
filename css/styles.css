@@ -1,5 +1,5 @@
 :root {
-  --header-background-color: #ffffff;
+  --basic-background-color: #ffffff;
   --brand-background-color: #2f303a;
   --section-background-color: #e5e5e5;
   --section-background-color-comand: #f5f4fa;
@@ -23,7 +23,6 @@ a {
 
 /* header */
 .header a {
-  background-color: var(--header-background-color);
   color: var(--text-color-primary);
 }
 
@@ -55,12 +54,12 @@ a {
 
 .title.hero {
   text-transform: uppercase;
-  color: var(--header-background-color);
+  color: var(--basic-background-color);
 }
 
 .hero button {
   background-color: var(--text-color-accent);
-  color: var(--header-background-color);
+  color: var(--basic-background-color);
   border: 0;
   text-align: center;
 }
@@ -71,8 +70,10 @@ a {
   display: none;
 }
 
+.header,
 .benefits,
-.our-work {
+.our-work,
+.menu {
   background-color: var(--header-background-color);
 }
 .benefits .sub-title {
@@ -87,8 +88,7 @@ a {
 }
 
 /* comand */
-.comand,
-.menu {
+.comand {
   background-color: var(--section-background-color-comand);
 }
 .worker-name {
