@@ -99,6 +99,7 @@ a {
   color: var(--text-color-secondary);
 }
 
+/* menu portfolio */
 .menu a {
   background-color: var(--section-background-menu);
   color: var(--text-color-primary);
