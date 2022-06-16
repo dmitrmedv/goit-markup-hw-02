@@ -9,24 +9,13 @@
   --color-logo: #000000;
 }
 
-/* header styles */
-.header {
-  background-color: var(--header-background-color);
-}
-
-.logo {
+body a,
+ul {
   text-decoration: none;
-  color: var(--color-logo);
-}
-
-.logo-decoration {
-  color: var(--text-color-accent);
-}
-
-.header ul {
   list-style: none;
 }
 
+<<<<<<< HEAD
 .nav-list a {
   color: var(--text-color-primary);
 }
@@ -49,4 +38,8 @@
 
 .footer {
   background-color: var(--brand-background-color);
+=======
+.address-list {
+font-style: normal;
+>>>>>>> 6a2e521afd1ad47a624160afc96237fe642c7e7a
 }
