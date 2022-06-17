@@ -11,7 +11,8 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color-primary);
 }
 
 body ul,
@@ -20,26 +21,20 @@ a {
   text-decoration: none;
 }
 
-.title {
-  text-align: center;
-  color: var(--text-color-primary);
-}
-
 /* header */
 .header {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 
-.header a {
-  color: var(--text-color-primary);
-}
-
 .contacts a {
   color: var(--text-color-secondary);
+}
+
+.link {
+  color: var(--text-color-primary);
 }
 
 .link.active {
@@ -47,8 +42,7 @@ a {
 }
 
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -71,8 +65,6 @@ a {
 }
 
 .title.hero {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -89,7 +81,6 @@ a {
   color: var(--basic-background-color);
   border: 0;
   text-align: center;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -97,6 +88,14 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* benefits */
@@ -112,14 +111,19 @@ a {
   background-color: var(--header-background-color);
 }
 .benefits .sub-title {
-  color: var(--text-color-primary);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: left;
 }
 
 .benefits .text {
   color: var(--text-color-secondary);
-  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 /* comand */
@@ -127,25 +131,50 @@ a {
   background-color: var(--section-background-color-comand);
 }
 .worker-name {
-  color: var(--text-color-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.div {
+  width: 270px;
+  height: 368px;
 }
 
 .job-title {
   color: var(--text-color-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* menu portfolio */
 .menu-list button {
   background-color: var(--section-background-menu);
-  color: var(--text-color-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .project-name {
-  color: var(--text-color-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .project-type {
   color: var(--text-color-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
 
 .menu-list button:hover,
@@ -157,6 +186,10 @@ a {
 /* footer */
 .footer {
   background-color: var(--brand-background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer .logo {
@@ -165,7 +198,6 @@ a {
 
 .address-list .link {
   color: var(--text-color-secondary);
-  text-align: left;
   font-style: normal;
 }
 
