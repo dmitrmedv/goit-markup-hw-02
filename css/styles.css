@@ -10,6 +10,10 @@
   --section-background-menu: #eeeeee;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 body ul,
 a {
   list-style: none;
@@ -22,6 +26,14 @@ a {
 }
 
 /* header */
+.header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .header a {
   color: var(--text-color-primary);
 }
@@ -35,6 +47,12 @@ a {
 }
 
 .logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--color-logo);
 }
 
@@ -53,15 +71,32 @@ a {
 }
 
 .title.hero {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--basic-background-color);
 }
 
 .hero button {
+  width: 200;
+  height: 50;
   background-color: var(--text-color-accent);
   color: var(--basic-background-color);
   border: 0;
   text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* benefits */
@@ -100,10 +135,9 @@ a {
 }
 
 /* menu portfolio */
-.menu a {
+.menu-list button {
   background-color: var(--section-background-menu);
   color: var(--text-color-primary);
-  text-align: left;
 }
 
 .project-name {
@@ -114,10 +148,10 @@ a {
   color: var(--text-color-secondary);
 }
 
-.menu-list a:hover,
-.menu-list a:focus {
+.menu-list button:hover,
+.menu-list button:focus {
   background-color: var(--text-color-accent);
-  color: var(--header-background-color);
+  color: var(--basic-background-color);
 }
 
 /* footer */
@@ -126,7 +160,7 @@ a {
 }
 
 .footer .logo {
-  color: var(--header-background-color);
+  color: var(--basic-background-color);
 }
 
 .address-list .link {
@@ -136,5 +170,5 @@ a {
 }
 
 .address-list .link.address {
-  color: var(--header-background-color);
+  color: var(--basic-background-color);
 }
